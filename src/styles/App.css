@@ -1,0 +1,30 @@
+/* src/styles/App.css */
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.quiz-container {
+  margin-top: 20px;
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
